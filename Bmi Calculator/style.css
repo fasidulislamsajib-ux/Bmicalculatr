@@ -1,0 +1,79 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url(./calculator.avif) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    padding: 40px 50px;
+    border-radius: 15px;
+    box-shadow: 0 15px 35px rgba(7, 2, 2, 0.2);
+    text-align: center;
+    width: 320px;
+    border: 1px solid #020c06;
+}
+
+h2 {
+    margin-bottom: 25px;
+    color: #333;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #4CAF50;
+}
+
+button {
+    padding: 12px 20px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+.result {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+}
+
+
+.underweight { background-color: #f39c12; }
+.normal { background-color: #27ae60; }
+.overweight { background-color: #e67e22; }
+.obese { background-color: #c0392b; }
